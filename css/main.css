@@ -10,10 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Gravitas One', cursive;
-  font-family: 'Comfortaa', cursive;
-  font-family: 'Rammetto One', cursive;
+
 }
 
 *, *::before, *::after {
@@ -22,4 +19,23 @@ html {
 
 body {
   margin: 0;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.banner:first-child {
+  font-family: 'Rammetto One', cursive;
+  background-color: #e97065;
+}
+
+.banner:nth-child(2) {
+  font-family: 'Gravitas One', cursive;
+  background-color: #fbd25e;
+}
+
+.banner:nth-child(3) {
+  font-family: 'Comfortaa', cursive;
+  background-color: #e86033;
 }
