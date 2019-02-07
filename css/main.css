@@ -24,17 +24,17 @@ p {
   font-family: "Open Sans", sans-serif;
 }
 
-.banner:first-child {
+.banner-1 {
   font-family: "Rammetto One", cursive;
   background-color: #e97065;
 }
 
-.banner:nth-child(2) {
+.banner-2 {
   font-family: "Gravitas One", cursive;
   background-color: #fbd25e;
 }
 
-.banner:nth-child(3) {
+.banner-3 {
   font-family: Comfortaa, cursive;
   background-color: #e86033;
 }
